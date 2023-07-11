@@ -11,14 +11,14 @@
   </a>
 </div>
 
-### 📏 Rules
+## 📏 Rules
 - 💪 주말, 공휴일 제외 1일 1솔 목표
 - 🛑 문제 풀이 시간 1시간 초과 시 스톱
 - 📝 자정까지 `PR` 올리기
 - ✅ 주 최소 1회 JavaScript로 풀이
 > 어려웠던 부분, 개선할 부분 PR 내용에 포함해서 같이 리뷰
 
-### 🕶️ Conventions
+## 🕶️ Conventions
 
 **Issue** | `[플랫폼] 문제이름`  
 e.g. [Programmers] 문자열 출력하기
@@ -32,3 +32,23 @@ e.g. Refactor 문자열 출력하기
 
 **File Name** | `YYMMDD_ProblemName`  
 e.g. 230712_PrintString.js
+
+## 💻 Get Started
+### 클론
+```
+git clone https://github.com/olwooz/algo-gaja.git
+```
+### 브랜치 생성 & 전환
+```
+git checkout -b kwaksj329
+```
+### 브랜치 삭제
+```
+git branch -D kwaksj329
+```
+### Commit & Push
+```
+git add .
+git commit -m "커밋 메시지"
+git push -u kwaksj329
+```
