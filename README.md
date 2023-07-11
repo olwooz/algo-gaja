@@ -40,7 +40,7 @@ git clone https://github.com/olwooz/algo-gaja.git
 ```
 ### 브랜치 생성 & 전환
 ```
-git checkout -b 브랜치 이름
+git checkout -b 브랜치 이름
 ```
 ### 브랜치 삭제
 ```
