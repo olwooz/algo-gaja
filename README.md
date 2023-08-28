@@ -50,5 +50,5 @@ git branch -D 브랜치 이름
 ```
 git add .
 git commit -m "커밋 메시지"
-git push -u 브랜치 이름
+git push -u origin 브랜치 이름
 ```
