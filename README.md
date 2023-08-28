@@ -30,8 +30,8 @@ e.g. 230712 수정
 e.g. Create 문자열 출력하기  
 e.g. Refactor 문자열 출력하기
 
-**Directory/File Name** | `platform/YYMMDD_문제 이름/id`  
-e.g. programmers/230712_문자열 출력하기/kwaksj329.js
+**Directory/File Name** | `platform/YYMMDD_문제_이름/id`  
+e.g. programmers/230712_문자열_출력하기/kwaksj329.js
 
 ## 💻 Get Started
 ### 클론
