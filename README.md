@@ -42,13 +42,13 @@ git clone https://github.com/olwooz/algo-gaja.git
 ```
 git checkout -b 브랜치 이름
 ```
-### 브랜치 삭제
-```
-git branch -D 브랜치 이름
-```
 ### Commit & Push
 ```
 git add .
 git commit -m "커밋 메시지"
 git push -u origin 브랜치 이름
+```
+### 브랜치 삭제
+```
+git branch -D 브랜치 이름
 ```
