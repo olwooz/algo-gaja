@@ -33,5 +33,3 @@ function solution(maps) {
 
   return -1;
 }
-
-console.log(solution([[1, 1, 1, 1, 1]]));
