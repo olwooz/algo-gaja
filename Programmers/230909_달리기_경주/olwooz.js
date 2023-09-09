@@ -1,8 +1,8 @@
 function solution(players, callings) {
-  const leaderboard = players.reduce((leaderboard, player, index) => {
-    leaderboard[player] = index;
-    return leaderboard;
-  }, {});
+  const leaderboard = players.reduce(
+    (leaderboard, player, index) => ({ ...leaderboard, [player]: index }),
+    {}
+  );
 
   callings.forEach((calling) => {
     const currentIndex = leaderboard[calling];
