@@ -6,7 +6,7 @@ const COUNTERPARTS = {
 };
 
 function isValid(parentheses) {
-  if (parentheses.length % 2 == 1) return false;
+  if (parentheses.length % 2 === 1) return false;
 
   const stack = [];
 
