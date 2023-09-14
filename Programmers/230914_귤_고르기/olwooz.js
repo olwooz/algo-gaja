@@ -3,7 +3,7 @@ function solution(k, tangerine) {
   let numTangerineInBox = 0;
 
   const tangerineCounts = tangerine.reduce((acc, cur) => {
-    acc[cur] = (acc[cur] || 0) + 1;
+    acc[cur] = (acc[cur] ?? 0) + 1;
     return acc;
   }, {});
 
