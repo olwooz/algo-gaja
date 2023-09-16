@@ -4,15 +4,13 @@ function solution(people, limit) {
 
   people.sort((a, b) => b - a);
 
-  while (start < end) {
-    if (people[start] + people[end] <= limit) {
+  while (start <= end) {
+    if (start !== end && people[start] + people[end] <= limit) {
       end--;
     }
     start++;
     answer++;
   }
-
-  if (start === end) answer++;
 
   return answer;
 }
