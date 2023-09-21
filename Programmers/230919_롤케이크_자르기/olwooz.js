@@ -12,6 +12,6 @@ function solution(topping) {
   }
 
   return toppingCounts.filter(
-    (_, index) => toppingCounts[index][0] === toppingCounts[index][1]
+    (toppingCount) => toppingCount[0] === toppingCount[1]
   ).length;
 }
