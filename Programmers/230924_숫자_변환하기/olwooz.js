@@ -10,7 +10,7 @@ function solution(x, y, n) {
     for (const next of [current - n, current / 2, current / 3]) {
       if (next === x) return cache[current] + 1;
 
-      if (Number.isInteger(next) && cache[next] === -1) {
+      if (next > 0 && Number.isInteger(next) && cache[next] === -1) {
         cache[next] = cache[current] + 1;
         queue.push(next);
       }
