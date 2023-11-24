@@ -8,6 +8,13 @@ const [n, numbers, operators] = require('fs')
     return input.split(' ').map(Number);
   });
 
+const OPERATOR = {
+  ADDITION: 0,
+  SUBTRACTION: 1,
+  MULTIPLICATION: 2,
+  DIVISION: 3,
+};
+
 function solution(n, numbers, operators) {
   let [min, max] = [Infinity, -Infinity];
 
@@ -24,10 +31,11 @@ function solution(n, numbers, operators) {
 
       let tempResult = result;
 
-      if (i === 0) tempResult += numbers[numberIndex];
-      else if (i === 1) tempResult -= numbers[numberIndex];
-      else if (i === 2) tempResult *= numbers[numberIndex];
-      else if (i === 3)
+      if (i === OPERATOR.ADDITION) tempResult += numbers[numberIndex];
+      else if (i === OPERATOR.SUBTRACTION) tempResult -= numbers[numberIndex];
+      else if (i === OPERATOR.MULTIPLICATION)
+        tempResult *= numbers[numberIndex];
+      else if (i === OPERATOR.DIVISION)
         tempResult = Math.trunc(tempResult / numbers[numberIndex]);
 
       operators[i]--;
