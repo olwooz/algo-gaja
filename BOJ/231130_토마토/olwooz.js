@@ -38,7 +38,7 @@ function solution(M, N, box) {
         newRow < 0 ||
         newRow >= N ||
         newCol < 0 ||
-        newRow >= M ||
+        newCol >= M ||
         box[newRow][newCol] !== 0
       )
         continue;
