@@ -1,17 +1,17 @@
 ---
 name: Algorithm Problem
 about: Assign an algorithm problem as an issue.
-title: "[Platform] Problem_Name"
+title: '[Platform] Problem_Name'
 labels: ''
 assignees: olwooz
-
 ---
 
 ## Title
+
 <table>
   <tr>
     <th>Date</th>
-    <td>2023-00-00</td>
+    <td>2024-00-00</td>
   </tr>
   <tr>
     <th>Difficulty</th>
