@@ -2,7 +2,7 @@ function solution(k, dungeons, count = 0) {
   let answer = count;
 
   for (let i = 0; i < dungeons.length; i++) {
-    if (k < dungeons[i][0]) return answer;
+    if (k < dungeons[i][0]) continue;
 
     answer = Math.max(
       answer,
